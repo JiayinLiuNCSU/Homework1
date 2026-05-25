@@ -1,0 +1,44 @@
+---
+title: "What is data scientist - HW1"
+author: "Jiayin Liu"
+format: html
+editor: visual
+---
+
+# Homework 1
+## Part 1 -- Answer the question
+### What do you think being a data scientist is about?
+I think being a data scientist is about using data to answer meaningful questions and support other department for decision-making.
+Based on the class material and the working experience, I think the following parts is really critical for being a data scientist:
+- The research question should be clear.
+- Data cleaning and management should be careful.
+- Method of analysis should be chosen after detailed consideration.
+- Interpreting the result in proper language.
+- The result should be communicated to others clearly and accurately.
+
+### What differences/similarities do you see between data scientists and statisticians?
+I think data scientists and statisticians have many similarities. They both work with data, and quantitative methods are used. They both target on getting a proper, accurate conclusion on the research question. 
+For the difference, I think statisticians focus more on the model, inference, and study design, but data scientists focus more on programming and data management. 
+
+### How do you view yourself in relation to these two areas?
+I think I'm some position between data scientist and statisticians. As a data analyst in maternal and child health research, I work on proposal analysis, but I also responsible for the data management and data harmonization at work.
+
+## Part 2 -- Include R code
+
+```{r}
+y <- density(iris$Petal.Width)
+```
+
+### class of object y
+```{r,echo=FALSE}
+class(y)
+```
+### type of object y
+```{r,echo=FALSE}
+typeof(y)
+```
+### structure of object y
+```{r,echo=FALSE}
+str(y)
+```
+
